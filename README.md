@@ -43,7 +43,7 @@ Due to an issue with Storybook (pending resolution), you will need that `@ts-ign
 
 The currently selected locale is available in the `locale` global, so you can access it in a decorator using the following snippet:
 
-```typscript
+```typescript
 import { MyProvider } from 'your-i18n-library';
 import { useGlobals } from '@storybook/manager-api';
 
